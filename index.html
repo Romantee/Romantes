@@ -7,9 +7,39 @@
     <meta name="author" content="--Romantė Šiupšinskaitė"> 
     
     <title>Laboratorinis darbas</title> 
+    
 </head>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-name">
+            <h2>Badabum</h2>
+        </div>
 
+        <!-- Desktop Navigation -->
+        <div class="menu-buttons d-none d-md-flex">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#resume">Resume</a>
+            <a href="#resume">Contact</a>
+        </div>
+
+        <!-- Mobile Dropdown -->
+        <div class="dropdown d-md-none">
+            <button class="menu-icon dropdown-toggle" onclick="toggleDropdown()">☰</button>
+            <ul class="dropdown-menu" id="dropdownMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
     <body>
+        
     <div class="About">
         <img src="nuotraukos/jolie.jpg" width="250">
         <p><b>Name: </b>Romantė</p>
@@ -34,7 +64,7 @@
              Quisque sagittis ut leo in hendrerit. </p>
        <h3><b>Sumary</b></h3>
        <h3><b>Education</b></h3>
-            <h4>VILNIUS TECH</h4>
+            <h5>VILNIUS TECH</h4>
             <p>Bachelor's degree in Electrical Power Engineering</p>
        <h3><b>Professional experience</b></h3>
 
